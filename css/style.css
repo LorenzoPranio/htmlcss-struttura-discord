@@ -43,3 +43,11 @@ header{
 
 
 /*ID*/
+
+#t-cent{
+    text-align: center;
+}
+
+#t-end{
+    text-align: end;
+}
