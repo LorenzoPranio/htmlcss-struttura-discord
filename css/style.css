@@ -1,6 +1,45 @@
 /*GENERAL RULES*/
+
 *{
     margin: 0;
     padding: 0;
     box-sizing: border-box;
 }
+body{
+    font-family: Arial, sans-serif;
+}
+
+/*RULES HEADER*/
+
+header{
+    background-color: lightblue;
+}
+
+.container{
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+.row{
+    display: flex;
+    flex-wrap: wrap;
+    padding-bottom: 15px;
+    padding-top: 15px;
+}
+
+.col-sm{
+    width: 20%;
+    background-color: rgb(255, 187, 1);
+    border: 2px dashed black;
+    padding: 5px;
+}
+
+.col-lg{
+    width: 60%;
+    background-color: rgb(255, 187, 1);
+    border: 2px dashed black;
+    padding: 5px;
+}
+
+
+/*ID*/
